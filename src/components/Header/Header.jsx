@@ -1,5 +1,6 @@
 import "../Header/Header.css";
 import React, { useState } from 'react';
+import DownloadIcon from '@mui/icons-material/Download';
 import AzeFlag from "../../assets/Header/azerbaijan.png";
 import BritainFlag from "../../assets/Header/english.png";
 import RussianFlag from "../../assets/Header/russia-flag.png";
@@ -49,14 +50,15 @@ export default function Header() {
                 <div className='nav-additional'>
                     <div className='header-download-cv'>
                         <a href="#">
+                            <DownloadIcon style={{color: "#fff", marginRight: 10}}/>
                             Download CV
                         </a>
                     </div>
                     <div className='header-languages'>
-                        <div onClick={handleOpenLang} className='current-lang' style={{ display: "flex", alignItems: "center", width: "120px" }}>
+                        <div onClick={handleOpenLang} className='current-lang' style={{ display: "flex", alignItems: "center", width: "120px", padding: "14px" }}>
                             <img src={currentFlag} alt="flag" style={{ width: 35, height: 35, marginRight: 20 }} />
                             <p style={{ fontSize: 20 }}>{currentLang}</p>
-                            <ArrowDropDownIcon />
+                            <ArrowDropDownIcon style={{ color: "#fff" }} />
                         </div>
                         {langChange ?
                             <div className="lang-choice" onClick={handleOpenLang}>
