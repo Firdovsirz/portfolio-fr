@@ -1,0 +1,57 @@
+header>nav>.nav-pages {
+    border: 1px solid rgb(10, 10, 10);
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+    width: 570px;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 10px;
+}
+
+header>nav>.nav-pages>div {
+    background: rgb(25, 25, 25);
+    border-radius: 10px;
+    color: #fff;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    padding: 14px 24px;
+    box-shadow: inset 1px 2px 3px 0px rgba(31, 31, 31, 1), inset -1px -2px 3px 0px rgba(20, 20, 20, 1), 0px 0px 0px 2px var(--token-08a742cf-42a2-4737-896d-2290dbe83901, rgb(15, 15, 15));
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+header>nav>.nav-pages>div:hover {
+    background: rgb(30, 30, 30)
+}
+
+header>nav>.nav-pages>div>img {
+    margin-right: 20px;
+    width: 30px;
+}
+
+header>nav>.nav-additional>.header-languages>.current-lang {
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 7px;
+    padding: 10px;
+    width: 200px;
+}
+
+header>nav>.nav-additional>.header-languages>.lang-choice {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: fit-content;
+    /* padding: 20px; */
+}
+
+header>nav>.nav-additional>.header-languages>.lang-choice>div:first-child {
+    border-bottom: 1px solid black;
+    width: 250px;
+}
+
+header>nav>.nav-additional>.header-languages>.lang-choice>div {
+    padding: 8px;
+    width: 250px;
+}
