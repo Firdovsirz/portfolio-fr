@@ -1,0 +1,111 @@
+.about-personal {
+    border: 1px solid var(--token-cc82fce7-f588-4ba8-8232-76a82ec0aedc, #1e1e1e);
+    width: calc(100% / 3);
+    height: 420px;
+    background: var(--token-3ff4f687-ee6f-44d1-b95e-c40293654407, #141414);
+    box-shadow: 0 0 0 4px var(--token-3ff4f687-ee6f-44d1-b95e-c40293654407, #141414), 0 0 5px 10px #0d0d0db3;
+    border-radius: 30px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-personal>.about-personal-info {
+    display: flex;
+}
+
+.about-personal>.about-personal-info>.about-personal-info-img {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 1px var(--token-cc82fce7-f588-4ba8-8232-76a82ec0aedc, #1e1e1e), 0 0 0 4px #242424;
+    border-radius: 20px;
+    margin-right: 50px;
+    padding: 2px;
+}
+
+.about-personal>.about-personal-info>.about-personal-info-img>.info-img-bg {
+    background: rgb(208, 50, 22);
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+.about-personal>.about-personal-info>.about-personal-details>.about-personal-available {
+    border: 1px solid var(--token-08a742cf-42a2-4737-896d-2290dbe83901, #0f0f0f);
+    background: var(--token-953cd8c0-9d0b-4ba0-a2dc-dad3078276db, #262626);
+    padding: 6px 20px 6px 14px;
+    border-radius: 100px;
+}
+
+.about-personal>.about-personal-info>.about-personal-details>.about-personal-available>.available-breath-animation {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    background: rgb(109, 211, 61);
+    border-radius: 50%;
+}
+
+.about-personal>.about-personal-info>.about-personal-details>.about-personal-available>.available-breath-animation>span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: inherit;
+    opacity: .8;
+    animation: pulseAnimate 2s ease-in-out infinite;
+}
+
+@keyframes pulseAnimate {
+    100% {
+        opacity: 0;
+        transform: scale(2.5);
+    }
+}
+
+.about-personal>.about-personal-info>.about-personal-details>.about-personal-available {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+.about-personal>.about-personal-info>.about-personal-details>.about-personal-available>p {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.about-personal>.about-personal-info>.about-personal-details>.about-personal-det>ul>li {
+    list-style-type: none;
+    margin-block: 15px;
+}
+
+.about-personal>.about-personal-info>.about-personal-details>.about-personal-det>ul>li>a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #999999;
+}
+
+.about-personal>.about-personal-txt {
+    background: var(--token-6dc656f4-1ec8-4f6c-b825-2f75e5af869c, #191919);
+    box-shadow: 0 0 0 2px var(--token-08a742cf-42a2-4737-896d-2290dbe83901, #0f0f0f), inset 1px 2px 2px #3339, inset 0 -2px 1px #1e1e1e, 1px 1px 6px 2px #0f0f0f80;
+    border-radius: 20px;
+    width: 100%;
+    padding: 24px;
+}
+
+.about-personal>.about-personal-txt>h2 {
+    color: var(--token-9cda009d-a6d7-4686-9b90-8d51ac35b4b9, #cccccc);
+    font-size: 20px;
+    letter-spacing: 0.07cap;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.about-personal>.about-personal-txt>p {
+    color: var(--token-256df5c7-47e1-419a-ad2c-f658f46420fa, #999999);
+    letter-spacing: 0.1cap;
+    line-height: 2cap;
+}

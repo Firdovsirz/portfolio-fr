@@ -38,6 +38,7 @@ header>nav>.nav-additional>.header-download-cv {
 header>nav>.nav-additional>.header-download-cv:hover {
     background: rgb(208, 50, 22);
     box-shadow: none;
+    box-shadow: 0px 0px 0px 2px rgb(208, 50, 22), 0px 2px 5px 1px rgba(208, 50, 22, 0.5), inset 3px 3px 4px 0px var(--token-cc82fce7-f588-4ba8-8232-76a82ec0aedc, rgb(208, 50, 22)), inset -2px -2px 3px 0px var(--token-3ff4f687-ee6f-44d1-b95e-c40293654407, rgb(208, 50, 22));
 }
 
 header>nav>.nav-additional>.header-download-cv>a {
