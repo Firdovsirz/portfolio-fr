@@ -12,9 +12,9 @@ export default function () {
             <div className='about-tools-heading'>
                 <div>
                     <img src={BoxIcon} alt="box" />
-                    Tools
+                    <p>Tools</p>
                 </div>
-                <p>My Top Tools</p>
+                <p>My Top 4 Tools</p>
             </div>
             <div className='about-tools-list'>
                 <div>
@@ -22,10 +22,18 @@ export default function () {
                         <div className='about-tool-icon-container'>
                             <img src={ReactIcon} alt="reac" />
                         </div>
+                        <div className='about-tool-txt'>
+                            <h4>React JS</h4>
+                            <p>A JS Library</p>
+                        </div>
                     </div>
                     <div className='about-tool-container'>
                         <div className='about-tool-icon-container'>
                             <img src={TypeScriptIcon} alt="ts" />
+                        </div>
+                        <div className='about-tool-txt'>
+                            <h4>TypeScript</h4>
+                            <p>Programming Language</p>
                         </div>
                     </div>
                 </div>
@@ -34,10 +42,18 @@ export default function () {
                         <div className='about-tool-icon-container'>
                             <img src={CssIcon} alt="css" />
                         </div>
+                        <div className='about-tool-txt'>
+                            <h4>CSS</h4>
+                            <p>Styling Language</p>
+                        </div>
                     </div>
                     <div className='about-tool-container'>
                         <div className='about-tool-icon-container'>
                             <img src={ReduxIcon} alt="redux" />
+                        </div>
+                        <div className='about-tool-txt'>
+                            <h4>Redux</h4>
+                            <p>State Management</p>
                         </div>
                     </div>
                 </div>

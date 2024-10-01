@@ -50,7 +50,7 @@ export default function Header() {
                 <div className='nav-additional'>
                     <div className='header-download-cv'>
                         <a href="#">
-                            <DownloadIcon style={{color: "#fff", marginRight: 10}}/>
+                            <DownloadIcon style={{ color: "#fff", marginRight: 10 }} />
                             Download CV
                         </a>
                     </div>

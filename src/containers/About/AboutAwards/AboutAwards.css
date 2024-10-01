@@ -1,0 +1,135 @@
+.about-awards {
+    width: calc(100% / 3 - 20px);
+    height: 420px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-awards>div:not(.about-language-container) {
+    border: 1px solid #1e1e1e;
+    background: var(--token-3ff4f687-ee6f-44d1-b95e-c40293654407, #141414);
+    box-shadow: 0 0 0 4px var(--token-3ff4f687-ee6f-44d1-b95e-c40293654407, #141414), 0 0 5px 10px #0d0d0db3;
+    width: calc(50% - 15px);
+    height: calc(50% - 20px);
+    border-radius: 20px;
+}
+
+.about-awards>.about-language-container {
+    width: 100%;
+    height: calc(50% - 10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-awards>.about-language-container>div {
+    border: 1px solid #1e1e1e;
+    background: var(--token-3ff4f687-ee6f-44d1-b95e-c40293654407, #141414);
+    box-shadow: 0 0 0 4px var(--token-3ff4f687-ee6f-44d1-b95e-c40293654407, #141414), 0 0 5px 10px #0d0d0db3;
+    width: calc(50% - 10px);
+    height: calc(100% + 10px);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.about-awards>.about-education>.about-education-heading {
+    padding: 16px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-awards>.about-education>.about-education-heading>img {
+    margin-right: 10px;
+    width: 30px;
+}
+
+.about-awards>.about-education>.about-education-heading>p {
+    color: rgb(208, 50, 22);
+    font-size: 19px;
+}
+
+.about-awards>.about-education>.about-education-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-awards>.about-education>.about-education-desc>h4 {
+    color: #999999;
+    font-size: 18px;
+    margin: 20px 0 10px 0;
+}
+
+.about-awards>.about-education>.about-education-desc>h5 {
+    color: #999999;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.about-awards>.about-education>.about-education-desc>p {
+    color: #999999;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.about-awards>.about-awards-container>.about-awards-heading {
+    padding: 16px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-awards>.about-awards-container>.about-awards-heading>img {
+    margin-right: 10px;
+    width: 30px;
+}
+
+.about-awards>.about-awards-container>.about-awards-heading>p {
+    color: rgb(208, 50, 22);
+    font-size: 19px;
+}
+
+.about-awards>.about-language-container>.about-languages>.about-languages-heading {
+    padding: 16px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-awards>.about-language-container>.about-languages>.about-languages-heading>img {
+    margin-right: 10px;
+    width: 30px;
+}
+
+.about-awards>.about-language-container>.about-languages>.about-languages-heading>p {
+    color: rgb(208, 50, 22);
+    font-size: 19px;
+}
+
+.about-awards>.about-language-container>.about-languages>.about-language-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.about-awards>.about-language-container>.about-languages>.about-language-desc>div {
+    background: var(--token-953cd8c0-9d0b-4ba0-a2dc-dad3078276db, #262626);
+    box-shadow: 0 0 0 2px var(--token-08a742cf-42a2-4737-896d-2290dbe83901, #0f0f0f), 0 2px 5px 1px #0f0f0f80, inset 1px 2px 4px #3339, inset 0 -2px 1px #1e1e1e;
+    padding: 10px;
+    width: fit-content;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 18px;
+}
