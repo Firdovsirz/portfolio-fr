@@ -1,6 +1,6 @@
 .about-personal {
     border: 1px solid var(--token-cc82fce7-f588-4ba8-8232-76a82ec0aedc, #1e1e1e);
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
     height: 420px;
     background: var(--token-3ff4f687-ee6f-44d1-b95e-c40293654407, #141414);
     box-shadow: 0 0 0 4px var(--token-3ff4f687-ee6f-44d1-b95e-c40293654407, #141414), 0 0 5px 10px #0d0d0db3;

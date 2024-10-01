@@ -1,0 +1,58 @@
+.about-tools {
+    border: 1px solid var(--token-cc82fce7-f588-4ba8-8232-76a82ec0aedc, #1e1e1e);
+    width: calc(100% / 3 - 20px);
+    height: 420px;
+    background: var(--token-3ff4f687-ee6f-44d1-b95e-c40293654407, #141414);
+    box-shadow: 0 0 0 4px var(--token-3ff4f687-ee6f-44d1-b95e-c40293654407, #141414), 0 0 5px 10px #0d0d0db3;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-tools>.about-tools-heading {
+    padding: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.about-tools>.about-tools-heading>div {
+    margin-bottom: 20px;
+}
+
+.about-tools>.about-tools-heading>div>p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.about-tools>.about-tools-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.about-tools>.about-tools-list>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-tools>.about-tools-list>div>.about-tool-container {
+    width: calc(50% - 10px);
+    border-radius: 16px;
+    padding: 14px;
+    background: var(--token-6dc656f4-1ec8-4f6c-b825-2f75e5af869c, #191919);
+    box-shadow: 0 0 0 2px var(--token-08a742cf-42a2-4737-896d-2290dbe83901, #0f0f0f), inset 1px 2px 2px #3339, inset 0 -2px 1px #1e1e1e, 1px 1px 6px 2px #0f0f0f80;
+}
+
+.about-tools>.about-tools-list>div>.about-tool-container>.about-tool-icon-container {
+    width: fit-content;
+    border-radius: 16px;
+    padding: 14px;
+    background: var(--token-6dc656f4-1ec8-4f6c-b825-2f75e5af869c, #191919);
+    box-shadow: 0 0 0 2px var(--token-08a742cf-42a2-4737-896d-2290dbe83901, #0f0f0f), inset 1px 2px 2px #3339, inset 0 -2px 1px #1e1e1e, 1px 1px 6px 2px #0f0f0f80;
+}
+
+.about-tools>.about-tools-list>div>.about-tool-container>.about-tool-icon-container>img {
+    width: 40px;
+    height: 40px;
+}
