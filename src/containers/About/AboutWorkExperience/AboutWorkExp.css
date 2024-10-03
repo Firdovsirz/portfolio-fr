@@ -1,0 +1,134 @@
+.about-work-experience-container {
+    border: 1px solid var(--token-cc82fce7-f588-4ba8-8232-76a82ec0aedc, #1e1e1e);
+    width: calc(100% / 3 - 20px);
+    height: 420px;
+    background: var(--token-3ff4f687-ee6f-44d1-b95e-c40293654407, #141414);
+    box-shadow: 0 0 0 4px var(--token-3ff4f687-ee6f-44d1-b95e-c40293654407, #141414), 0 0 5px 10px #0d0d0db3;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-work-experience-container>.work-exp-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.about-work-experience-container>.work-exp-heading>img {
+    width: 30px;
+    margin-right: 20px;
+}
+
+.about-work-experience-container>.work-exp-heading>p {
+    color: rgb(208, 50, 22);
+    font-size: 18px;
+}
+
+.about-work-experience-container>.work-exp-desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: inset 0 1px #1e1e1e;
+}
+
+.about-work-experience-container>.work-exp-desc>.work-exp-job-desc {
+    border: 2px solid #0f0f0f;
+    box-shadow: 0 2px 6.900000095367432px 1px #0f0f0f80, inset 2px 4px 2px #3339, inset 0 -2px 1px #1e1e1e;
+    background: #191919;
+    width: 260px;
+    /* padding: 20px; */
+    border-radius: 20px;
+}
+
+.about-work-experience-container>.work-exp-desc>.work-exp-job-desc>.job-desc-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #000;
+}
+
+.about-work-experience-container>.work-exp-desc>.work-exp-job-desc>.job-desc-head>h4 {
+    color: rgb(230, 230, 230);
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-work-experience-container>.work-exp-desc>.work-exp-job-desc>.job-desc-head>p {
+    color: rgb(230, 230, 230);
+    font-size: 17px;
+}
+
+.about-work-experience-container>.work-exp-desc>.work-exp-job-desc>.job-desc-head>p>span {
+    color: #999999;
+    font-size: 18px;
+}
+
+.about-work-experience-container>.work-exp-desc>.work-exp-job-desc>.job-desc-txt {
+    color: #999999;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-work-experience-container>.work-exp-desc>.work-exp-comp-name {
+    border: 2px solid #0f0f0f;
+    background: #191919;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: inset 2px 4px 2px #3339, inset 0 -2px 1px #1e1e1e, 0 2px 6.900000095367432px 1px #0f0f0f80;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-work-experience-container>.work-exp-desc>.work-exp-comp-name>h4 {
+    color: rgb(230, 230, 230);
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.about-work-experience-container>.work-exp-desc>.work-exp-comp-name>p {
+    color: #999999;
+}
+
+.about-work-experience-container>.work-exp-desc>.work-exp-desc-line>.line {
+    height: 320px;
+    width: 1px;
+    background: #626262;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.about-work-experience-container>.work-exp-desc>.work-exp-desc-line {
+    position: relative;
+}
+
+.about-work-experience-container>.work-exp-desc>.work-exp-desc-line>.line-dot {
+    width: 25px;
+    height: 25px;
+    background: #353535;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: -12px;
+}
+
+.about-work-experience-container>.work-exp-desc>.work-exp-desc-line>.line-dot>.line-dot-small {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+}
