@@ -1,0 +1,129 @@
+.schedule-form {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(201, 201, 201, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 2px 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.schedule-form>.sch-form-container {
+    border: 1px solid var(--token-cc82fce7-f588-4ba8-8232-76a82ec0aedc, #1e1e1e);
+    width: calc(100% / 3 - 20px);
+    height: fit-content;
+    background: var(--token-3ff4f687-ee6f-44d1-b95e-c40293654407, #141414);
+    box-shadow: 0 0 0 4px var(--token-3ff4f687-ee6f-44d1-b95e-c40293654407, #141414), 0 0 5px 10px #0d0d0db3;
+    border-radius: 30px;
+    padding: 20px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.schedule-form>.sch-form-container>form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.schedule-form>.sch-form-container>form>div {
+    background: var(--token-6dc656f4-1ec8-4f6c-b825-2f75e5af869c, #191919);
+    box-shadow: 0 0 0 2px var(--token-08a742cf-42a2-4737-896d-2290dbe83901, #0f0f0f), inset 1px 2px 2px #3339, inset 0 -2px 1px #1e1e1e, 1px 1px 6px 2px #0f0f0f80;
+    padding: 20px;
+    width: 450px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.schedule-form>.sch-form-container>form>div>input {
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid var(--token-cc82fce7-f588-4ba8-8232-76a82ec0aedc, #acacac);
+    background: transparent;
+    border-radius: 16px;
+    padding: 10px;
+    color: #999999;
+    font-size: 17px;
+}
+
+.schedule-form>.sch-form-container>form>div>.placeholder {
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    font-size: 16px;
+    padding: 0 5px;
+    color: rgb(208, 50, 22);
+    transition: all 400ms;
+    pointer-events: none;
+    letter-spacing: 0.7cap;
+}
+
+.schedule-form>.sch-form-container>form>div>input:focus,
+.schedule-form>.sch-form-container>form>div>input:valid {
+    color: #fff;
+    border: 1px solid rgb(208, 50, 22);
+}
+
+.schedule-form>.sch-form-container>form>div>input:focus+.placeholder,
+.schedule-form>.sch-form-container>form>div>input:valid+.placeholder {
+    color: #999999;
+    background: red;
+    transform: translate(-15px, -25px);
+    background: rgba(201, 201, 201, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 2px 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    letter-spacing: 0;
+}
+.schedule-form>.sch-form-container>form>.calendar-container>div{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid var(--token-cc82fce7-f588-4ba8-8232-76a82ec0aedc, #acacac);
+    background: transparent;
+    border-radius: 16px;
+    padding: 10px;
+    color: #999999;
+    font-size: 17px;
+}
+.schedule-form>.sch-form-container>form>.calendar-container>div>input{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid transparent;
+    background: transparent;
+    border-radius: 16px;
+    padding: 10px;
+    color: #999999;
+    font-size: 17px;
+}
+.schedule-form>.sch-form-container>form>.submit {
+    width: 200px;
+    height: 60px;
+    border-radius: 16px;
+    border: 1px solid rgb(208, 50, 22);
+    background: var(--token-3ff4f687-ee6f-44d1-b95e-c40293654407, #141414);
+    box-shadow: 0 0 0 4px var(--token-3ff4f687-ee6f-44d1-b95e-c40293654407, #141414), 0 0 5px 10px #0d0d0db3;
+    color: #fff;
+    font-size: 17px;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.schedule-form>.sch-form-container>form>.submit:hover {
+    background: rgb(208, 50, 22);
+}
