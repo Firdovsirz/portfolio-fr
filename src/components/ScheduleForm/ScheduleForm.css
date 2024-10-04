@@ -127,3 +127,10 @@
 .schedule-form>.sch-form-container>form>.submit:hover {
     background: rgb(208, 50, 22);
 }
+
+.schedule-form>.calendar-container{
+    position: fixed;
+    top: 35%;
+    right: 150px;
+    
+}

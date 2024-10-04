@@ -7,9 +7,9 @@ import CalendarUi from './components/Calendar/CalendarUi.jsx';
 function App() {
   return (
     <>
-      {/* <About /> */}
-      {/* <ScheduleForm /> */}
-      <CalendarUi />
+      <About />
+      <ScheduleForm />
+      {/* <CalendarUi /> */}
     </>
   )
 }

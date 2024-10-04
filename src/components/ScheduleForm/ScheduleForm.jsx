@@ -1,10 +1,23 @@
 import React from 'react';
 import dayjs from "dayjs";
+import { useState } from 'react';
 import "../ScheduleForm/ScheduleForm.css";
 import CalendarIcon from "../../assets/About/about-calendar.svg";
+import CalendarUi from '../Calendar/CalendarUi';
 
 export default function ScheduleForm() {
-    const currentDate = dayjs().format('DD/MM/YYYY');
+    const [currentDate, setCurrentDate] = useState(dayjs().format('DD/MM/YYYY'));
+    const [date, setDate] = useState(new Date());
+    const [openedCalendar, setOpenedCalendar] = useState(false);
+
+    const handleDateChange = (newDate) => {
+        setDate(newDate);
+        setCurrentDate(date.toDateString());
+        setOpenedCalendar(false);
+    };
+    const handleCalendarClick = () => {
+        setOpenedCalendar(!openedCalendar);
+    }
     return (
         <div className='schedule-form'>
             <div className='sch-form-container'>
@@ -27,13 +40,16 @@ export default function ScheduleForm() {
                     </div>
                     <div className='calendar-container'>
                         <div>
-                            <input type="text" value={currentDate}/>
-                            <img src={CalendarIcon} alt="calendar" style={{ cursor: "pointer" }} />
+                            <input type="text" value={currentDate} />
+                            <img src={CalendarIcon} alt="calendar" style={{ cursor: "pointer" }} onClick={handleCalendarClick} />
                         </div>
                     </div>
                     <button className='submit'>Submit</button>
                 </form>
             </div>
+            {openedCalendar ? <div className='calendar-container'>
+                <CalendarUi date={date} onDateChange={handleDateChange} />
+            </div> : null}
         </div>
     )
 }
